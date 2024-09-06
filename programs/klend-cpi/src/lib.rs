@@ -8,7 +8,10 @@ declare_id!("KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD");
 pub mod kamino_lending {
     use super::*;
 
-    pub fn deposit_reserve_liquidity(ctx: Context<DepositReserveLiquidity>) -> Result<()> {
+    pub fn deposit_reserve_liquidity(
+        ctx: Context<DepositReserveLiquidity>,
+        liquidity_amount: u64,
+    ) -> Result<()> {
         Ok(())
     }
 }
