@@ -1,12 +1,12 @@
 [package]
-name = "kamino_lending"
+name = "kamino-sdk"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "kamino_lending"
+name = "kamino_sdk"
 
 [features]
 default = ["cpi"]
